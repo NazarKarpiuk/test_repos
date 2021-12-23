@@ -16,7 +16,7 @@ jobs:
     steps:   
       - name: Taking out last log records
         run: |
-	  python3 get_last_logs
+	  python3 get_last_logs.py
   
   run-tests:
     runs-on: ubuntu-latest
