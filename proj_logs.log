@@ -1,0 +1,66 @@
+20:33:36,649 root INFO This is an info message
+20:33:58,448 root INFO This is an info message
+20:47:01,50 root INFO This is an info message
+20:47:01,997 root INFO This is an info message
+20:47:02,690 root INFO This is an info message
+20:47:03,343 root INFO This is an info message
+20:47:03,752 root INFO This is an info message
+20:47:04,342 root INFO This is an info message
+20:47:04,819 root INFO This is an info message
+21:22:28,837 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+21:27:33,327 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+21:28:42,860 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+21:43:31,716 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+21:50:15,897 root INFO INITIAL RECORD
+21:50:20,779 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:03:25,327 root INFO INITIAL RECORD
+22:03:27,331 root INFO CONFIRMED NUMPLATE PRESENCE
+22:03:27,339 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:03:34,446 root INFO SUCCESSFUL NUMBER RECOGNITION
+22:05:34,922 root INFO INITIAL RECORD
+22:05:36,893 root INFO CONFIRMED NUMPLATE PRESENCE
+22:05:36,898 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:05:44,154 root INFO SUCCESSFUL NUMBER RECOGNITION
+22:11:04,792 root INFO INITIAL RECORD
+22:11:07,155 root INFO CONFIRMED NUMPLATE PRESENCE
+22:11:07,160 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:11:14,285 root INFO SUCCESSFUL NUMBER RECOGNITION
+22:11:15,603 root INFO RESULTS APPENDED TO DATABASE
+22:27:58,482 root INFO INITIAL RECORD
+22:28:00,103 root INFO CONFIRMED NUMPLATE PRESENCE
+22:28:00,107 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:28:07,231 root INFO SUCCESSFUL NUMBER RECOGNITION
+22:28:09,82 root INFO RESULTS APPENDED TO DATABASE
+
+22:29:59,932 root INFO INITIAL RECORD
+22:30:02,944 root INFO CONFIRMED NUMPLATE PRESENCE
+22:30:02,948 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:30:10,217 root INFO SUCCESSFUL NUMBER RECOGNITION
+22:30:10,711 root INFO RESULTS APPENDED TO DATABASE
+22:30:10,711 root INFO ...
+22:53:57,940 root INFO INITIAL RECORD
+22:53:59,886 root INFO CONFIRMED NUMPLATE PRESENCE
+22:53:59,890 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+22:54:07,405 root INFO SUCCESSFUL NUMBER RECOGNITION
+22:54:08,3 root INFO RESULTS APPENDED TO DATABASE
+
+23:03:16,103 root INFO INITIAL RECORD
+23:04:23,733 root INFO INITIAL RECORD
+23:05:34,321 root INFO 
+INITIAL RECORD
+23:05:36,141 root INFO CONFIRMED NUMPLATE PRESENCE
+23:05:36,145 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+23:05:43,338 root INFO SUCCESSFUL NUMBER RECOGNITION
+23:05:44,49 root INFO RESULTS APPENDED TO DATABASE
+23:07:25,133 root INFO INITIAL RECORD
+23:07:28,162 root INFO CONFIRMED NUMPLATE PRESENCE
+23:07:28,167 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+23:07:36,575 root INFO SUCCESSFUL NUMBER RECOGNITION
+23:07:37,124 root INFO RESULTS APPENDED TO DATABASE
+
+23:12:52,528 root INFO INITIAL RECORD
+23:12:54,355 root INFO CONFIRMED NUMPLATE PRESENCE
+23:12:54,359 easyocr.easyocr WARNING CUDA not available - defaulting to CPU. Note: This module is much faster with a GPU.
+23:13:01,465 root INFO SUCCESSFUL NUMBER RECOGNITION
+23:13:02,753 root INFO RESULTS APPENDED TO DATABASE
+
