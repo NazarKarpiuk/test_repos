@@ -10,7 +10,10 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
-
+        
+  archive-build-artifacts:
+    runs-on: ubuntu-latest
+    steps:
       - name: unittest run
         run: |
           python3 -m unittest
