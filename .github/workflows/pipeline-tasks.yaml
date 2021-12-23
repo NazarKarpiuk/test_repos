@@ -5,7 +5,7 @@ on:
     branches: [main]
   
 jobs:
-  build:
+  tests-and-artifacts:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
