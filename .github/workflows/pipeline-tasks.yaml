@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2
+
+      - name: unittest-run
+        run: |
+          python3 -m unittest
