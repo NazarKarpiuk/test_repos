@@ -32,3 +32,6 @@ jobs:
           name: assets-for-download
           path: artifacts
           
+      - name: result confirmation
+        run: echo "🍏 This job's status is ${{ job.status }}."
+          
