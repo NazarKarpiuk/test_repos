@@ -1,0 +1,26 @@
+name: pipeline-tasks 
+
+on:
+  push:
+    branches: [feature/karpiuknm/develop]
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repo content
+        uses: actions/checkout@v2    
+
+  archive-build-artifacts:
+    runs-on: ubuntu-latest
+    steps:   
+      - name: Taking out last log records
+        run: |
+	  python3 get_last_logs
+  
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: unittest-run
+        run: |
+          python3 -m unittest
