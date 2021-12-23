@@ -9,19 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repo content
-        uses: actions/checkout@v2    
-
-  run-tests:
-    runs-on: ubuntu-latest
-    steps:
-      - name: unittest-run
-        run: |
-          python3 -m unittest
-	  
-  archive-build-artifacts:
-    runs-on: ubuntu-latest
-    steps:   
-      - name: Taking out last log records
-        run: |
-	  python3 get_last_logs.py
-  
+        uses: actions/checkout@v2
