@@ -20,7 +20,7 @@ jobs:
           mkdir artifacts
           cd artifacts
           touch log.txt
-          cd
+          cd ..
         
       - name: taking out last log records
         run: |
