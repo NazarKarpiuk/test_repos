@@ -11,6 +11,11 @@ jobs:
       - name: checkout repo content
         uses: actions/checkout@v2
 
-      - name: unittest-run
+      - name: unittest run
         run: |
           python3 -m unittest
+          
+      - name: taking out last log records
+        run: |
+          python3 get_last_logs.py
+          
