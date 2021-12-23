@@ -14,8 +14,21 @@ jobs:
       - name: unittest run
         run: |
           python3 -m unittest
-          
+                
+      - name: creating directory
+        run: |
+          mkdir artifacts
+          cd artifacts
+          touch log.txt
+          cd
+        
       - name: taking out last log records
         run: |
-          python3 get_last_logs.py
+          python3 get_last_logs.py > artifacts/log.txt
+      
+      - name: use the upload artifact github action
+        uses: actions/upload-artifact@v2
+        with: 
+          name: assets-for-download
+          path: artifacts
           
